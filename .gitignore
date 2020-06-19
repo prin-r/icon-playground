@@ -1,0 +1,13 @@
+/*.pyc
+/*.pxd
+/*.exe
+
+.DS_Store
+*.swp
+/venv/
+__pycache__/
+*.pyc
+/.vscode/
+/lib/
+/.statedb/
+/bin/
