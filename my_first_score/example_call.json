@@ -1,0 +1,14 @@
+{
+  "jsonrpc": "2.0",
+  "method": "icx_call",
+  "id": 1,
+  "params": {
+    "from": "hx55814f724bbffe49bfa4555535cd9d7e0e1dff32",
+    "to": "cxec9f64d50623ca9fd0709fad3322e742697d593a",
+    "dataType": "call",
+    "data": {
+      "method": "add_name",
+      "params": { "name": "momo" }
+    }
+  }
+}
