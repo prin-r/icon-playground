@@ -1,0 +1,112 @@
+2020-05-07 18:44:00,892 55684 140734947106240 INFO icon_service_cli.py(133) LOG start_server() start
+2020-05-07 18:44:00,899 55684 140734947106240 INFO icon_service_cli.py(159) LOG start_process() end
+2020-05-07 18:44:00,899 55684 140734947106240 INFO icon_service_cli.py(116) IconServiceCli start_command done!
+2020-05-07 18:44:01,412 55689 140734836215232 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2020-05-07 18:44:01,477 55689 140734836215232 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2020-05-07 18:44:01,821 55687 140734901321152 INFO icon_logger_util.py(161) ====================LOG CONFIG START====================
+2020-05-07 18:44:01,821 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.logger] > tbears
+2020-05-07 18:44:01,821 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.level] > info
+2020-05-07 18:44:01,821 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.filePath] > ./tbears.log
+2020-05-07 18:44:01,821 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.colorLog] > True
+2020-05-07 18:44:01,822 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.outputType] > file
+2020-05-07 18:44:01,822 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.rotate.type] > bytes
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.rotate.maxBytes] > 10485760
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.log.rotate.backupCount] > 10
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.scoreRootPath] > ./.score
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.stateDbRootPath] > ./.statedb
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.channel] > loopchain_default
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.amqpKey] > 7100
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.amqpTarget] > 127.0.0.1
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.builtinScoreOwner] > hxe7af5fcfd8dfc67530a01a0e403882687528dfcb
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.ipcTimeout] > 10
+2020-05-07 18:44:01,823 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.service.fee] > False
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.service.audit] > False
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.service.deployerWhiteList] > False
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.service.scorePackageValidator] > False
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iissMetaData.rewardMin] > 200
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iissMetaData.rewardMAX] > 1200
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iissMetaData.rewardPoint] > 7000
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iissMetaData.lockMin] > 216000
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iissMetaData.lockMax] > 864000
+2020-05-07 18:44:01,824 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iconRcPath] > 
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.iissCalculatePeriod] > 43200
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.termPeriod] > 43120
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.initialIRep] > 50000000000000000000000
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.prepRegistrationFee] > 2000000000000000000000
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.mainPRepCount] > 22
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.mainAndSubPRepCount] > 100
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.decentralizeTrigger] > 0.002
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.penaltyGracePeriod] > 86400
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.lowProductivityPenaltyThreshold] > 85
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockValidationPenaltyThreshold] > 660
+2020-05-07 18:44:01,825 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.stepTraceFlag] > False
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.precommitDataLogFlag] > False
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.backupFiles] > 10
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockInvokeTimeout] > 15
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.hostAddress] > 127.0.0.1
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.port] > 9000
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.genesis.nid] > 0x3
+2020-05-07 18:44:01,826 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockConfirmInterval] > 10
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockConfirmEmpty] > True
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockGeneratorRotation] > True
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockGenerateCountPerLeader] > 10
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.blockManualConfirm] > False
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.networkDelayMs] > 500
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.verbose] > False
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.command] > start
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.config] > ./temp_conf.json
+2020-05-07 18:44:01,827 55687 140734901321152 INFO icon_logger_util.py(170) [CONFIG.tbearsMode] > False
+2020-05-07 18:44:01,828 55687 140734901321152 INFO icon_logger_util.py(163) ====================LOG CONFIG END======================
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(65) IconService ==========IconService Service params==========
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(67) IconService version : 1.6.1
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(68) IconService score_root_path : ./.score
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(69) IconService icon_score_state_db_root_path  : ./.statedb
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(70) IconService amqp_target  : 127.0.0.1
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(71) IconService amqp_key  :  7100
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(72) IconService icon_score_queue_name  : IconScore.loopchain_default.7100
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_service.py(73) IconService ==========IconService Service params==========
+2020-05-07 18:44:02,343 55687 140734901321152 INFO icon_inner_service.py(58) IconInnerService icon_score_service open
+2020-05-07 18:44:02,414 55687 140734901321152 INFO backup_manager.py(53) ROLLBACK backup_root_path=/Users/mumu/Desktop/pythonProject/band-icon2/.statedb/backup
+2020-05-07 18:44:02,415 55687 140734901321152 INFO storage.py(275) IISS Create new current_db
+2020-05-07 18:44:02,443 55687 140734901321152 INFO storage.py(93) IISS last_transaction_index on open=-1
+2020-05-07 18:44:02,443 55687 140734901321152 INFO reward_calc_proxy.py(69) RCP ipc_timeout: 10
+2020-05-07 18:44:02,443 55687 140734901321152 INFO server.py(39) RCP open() start
+2020-05-07 18:44:02,443 55687 140734901321152 INFO server.py(49) RCP open() end
+2020-05-07 18:44:02,443 55687 140734901321152 INFO reward_calc_proxy.py(567) RCP cmd=icon_rc -client -monitor -db-count 16 -db /Users/mumu/Desktop/pythonProject/band-icon2/.statedb/rc -iissdata /Users/mumu/Desktop/pythonProject/band-icon2/.statedb/iiss -ipc-addr /tmp/iiss_7100.sock -log-file ./rc.log
+2020-05-07 18:44:03,038 55688 140734857928128 INFO icon_logger_util.py(161) ====================LOG CONFIG START====================
+2020-05-07 18:44:03,038 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.hostAddress] > 127.0.0.1
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.port] > 9000
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.scoreRootPath] > ./.score
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.stateDbRootPath] > ./.statedb
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.logger] > tbears
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.level] > info
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.filePath] > ./tbears.log
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.colorLog] > True
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.outputType] > file
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.rotate.type] > bytes
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.rotate.maxBytes] > 10485760
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.log.rotate.backupCount] > 10
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.service.fee] > False
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.service.audit] > False
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.service.deployerWhiteList] > False
+2020-05-07 18:44:03,039 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.builtinScoreOwner] > hxe7af5fcfd8dfc67530a01a0e403882687528dfcb
+2020-05-07 18:44:03,040 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.genesis.nid] > 0x3
+2020-05-07 18:44:03,040 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+2020-05-07 18:44:03,040 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.channel] > loopchain_default
+2020-05-07 18:44:03,040 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.amqpKey] > 7100
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.amqpTarget] > 127.0.0.1
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.blockConfirmInterval] > 10
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.blockConfirmEmpty] > True
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.blockGeneratorRotation] > True
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.blockGenerateCountPerLeader] > 10
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.blockManualConfirm] > False
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(170) [CONFIG.networkDelayMs] > 500
+2020-05-07 18:44:03,041 55688 140734857928128 INFO icon_logger_util.py(163) ====================LOG CONFIG END======================
+2020-05-07 18:44:03,100 55688 140734857928128 INFO block_manager.py(176) tbears_block_manager ==========tbears block_manager params==========
+2020-05-07 18:44:03,100 55688 140734857928128 INFO block_manager.py(177) tbears_block_manager amqp_target : 127.0.0.1
+2020-05-07 18:44:03,100 55688 140734857928128 INFO block_manager.py(178) tbears_block_manager amqp_key    : 7100
+2020-05-07 18:44:03,101 55688 140734857928128 INFO block_manager.py(179) tbears_block_manager queue_name  : Channel.loopchain_default.7100
+2020-05-07 18:44:03,101 55688 140734857928128 INFO block_manager.py(180) tbears_block_manager             : ChannelTxCreator.loopchain_default.7100
+2020-05-07 18:44:03,101 55688 140734857928128 INFO block_manager.py(181) tbears_block_manager             : IconScore.loopchain_default.7100
+2020-05-07 18:44:03,101 55688 140734857928128 INFO block_manager.py(182) tbears_block_manager ==========tbears block_manager params==========
