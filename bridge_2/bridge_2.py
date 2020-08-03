@@ -3,7 +3,7 @@ from iconservice import *
 TAG = 'BRIDGE_2'
 
 
-# =-=-=-=-=-=-=-=-=-=-=-=-= OBI =-=-=-=-=-=-=-=-=-=-=-=-=
+# =-=-=-=-=-=-=-=-=-=-=-=-= OBI Minimal =-=-=-=-=-=-=-=-=-=-=-=-=
 
 
 def decode_int(b: bytes, n_bits: int) -> (int, bytes):
@@ -21,10 +21,6 @@ def decode_bool(b: bytes) -> (int, bytes):
     return (int(b[0]) != 0, b[1:])
 
 
-def decode_bytes_fix_size(b: bytes, size: int) -> (bytes, bytes):
-    return (b[:size], b[size:])
-
-
 def decode_bytes(b: bytes) -> (bytes, bytes):
     (size, remaining) = decode_int(b, 32)
     return (remaining[:size], remaining[size:])
@@ -34,7 +30,7 @@ def decode_str(b: bytes) -> (str, bytes):
     (size, remaining) = decode_int(b, 32)
     return (remaining[:size].decode("utf-8"), remaining[size:])
 
-# =-=-=-=-=-=-=-=-=-=-=-=-= OBI =-=-=-=-=-=-=-=-=-=-=-=-=
+# =-=-=-=-=-=-=-=-=-=-=-=-= OBI Minimal =-=-=-=-=-=-=-=-=-=-=-=-=
 
 
 # =-=-=-=-=-=-=-=-=-=-=-=-= \Sha256 =-=-=-=-=-=-=-=-=-=-=-=-=
