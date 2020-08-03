@@ -1,0 +1,25 @@
+{
+  "jsonrpc": "2.0",
+  "method": "icx_sendTransaction",
+  "params": {
+    "version": "0x3",
+    "from": "hx55814f724bbffe49bfa4555535cd9d7e0e1dff32",
+    "value": "0x0",
+    "stepLimit": "0x3000000",
+    "timestamp": "0x59aaeb314a940",
+    "nid": "0x3",
+    "nonce": "0x1",
+    "to": "cx706d1930a8f50daa7ba5055391885e7c4b5a02d5",
+    "dataType": "call",
+    "data": {
+      "method": "set_test_1",
+      "params": {
+        "e": "1ccd765c80d0dc1705bb7b6be616dad3cf2e6439bb9a9b776d5bd183f89ca141",
+        "r": "aafa694879095840619f5e49380612bd296ff7e950eafb66ff654d99ca70869e",
+        "s": "1869e4baef831b309c193cc94dcf519657d832563b099a6f62c6fa8b7a043ba4",
+        "v": 27
+      }
+    }
+  },
+  "id": 1
+}
