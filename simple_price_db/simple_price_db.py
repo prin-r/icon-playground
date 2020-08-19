@@ -86,3 +86,16 @@ class SIMPLE_PRICE_DB(IconScoreBase):
         bridge = self.create_interface_score(self.bridge_address.get(), BRIDGE)
         return bridge.get_latest_response(encoded_request)
 
+    @external
+    def set_bridge(self, bridge_address: Address) -> None:
+        if self.msg.sender != self.owner:
+            self.revert("NOT_AUTHORIZED")
+
+        self.bridge_address.set(bridge_address)
+
+    @external
+    def set_encoded_request(self, encoded_request: bytes) -> None:
+        if self.msg.sender != self.owner:
+            self.revert("NOT_AUTHORIZED")
+
+        self.encoded_request.set(encoded_request)
